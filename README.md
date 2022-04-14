@@ -1,2 +1,2 @@
-# DBOn
+# DBOn.py
 Scirpt
