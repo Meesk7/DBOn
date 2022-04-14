@@ -16,7 +16,7 @@ def generar_archivo():
     os.system(comando)
     print("Archivo generado satisfactoriamente.")
 
-def importar_información():
+def importar_informacion():
     """ Esta función crea un dataframe a partir del contenido de un archivo csv.
        :return: Dataframe con la información de los procesos.
     """
@@ -41,7 +41,7 @@ def exportar_informacion(p_dataframe):
 
 def main():
     generar_archivo()
-    exportar_informacion(importar_información())
+    exportar_informacion(importar_informacion())
     user_input = input("Presione 'y' para cerrar la conexión")
 
     if user_input == "y":
