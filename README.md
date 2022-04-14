@@ -1,2 +1,2 @@
 # DBOn.py
-Scirpt
+Script
